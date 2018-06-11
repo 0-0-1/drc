@@ -6,4 +6,10 @@ version = "0.1.0"
 authors = ["0-0-1 <0-0-1@users.noreply.github.com>"]
 license = "MIT OR Apache-2.0"
 
+keywords = ["drc", "rc", "pointer"]
+categories = ["memory-management"]
+readme = "CRATES-IO.md"
+
+include = ["Cargo.toml", "src/**/*.rs", "CRATES-IO.md", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+
 [dependencies]
