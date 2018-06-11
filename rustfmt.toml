@@ -1,0 +1,6 @@
+unstable_features = true
+error_on_line_overflow = false
+match_block_trailing_comma = true
+wrap_comments = true
+format_strings = true
+imports_indent = "Block"
