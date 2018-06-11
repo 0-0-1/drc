@@ -1,4 +1,7 @@
-# drc
+# drc &emsp; [![Latest Version]][crates.io]
+
+[Latest Version]: https://img.shields.io/crates/v/drc.svg
+[crates.io]: https://crates.io/crates/drc
 
 A Rust libary to introduce the `Drc` smart pointer along with its `Weak` counterpart.
 
