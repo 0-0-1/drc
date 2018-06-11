@@ -2,6 +2,7 @@
 name = "drc"
 description = "A Rust library to add a new \"Drc\" smart pointer."
 repository = "https://github.com/0-0-1/drc"
+documentation = "https://docs.rs/drc/"
 version = "0.1.0"
 authors = ["0-0-1 <0-0-1@users.noreply.github.com>"]
 license = "MIT OR Apache-2.0"

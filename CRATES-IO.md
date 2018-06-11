@@ -2,7 +2,7 @@
 
 A Rust libary to introduce the `Drc` smart pointer along with its `Weak` counterpart.
 
-Documentation (needs link)
+[Documentation](https://docs.rs/drc/)
 
 ## Usage
 
