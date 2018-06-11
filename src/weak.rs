@@ -78,7 +78,7 @@ impl<T> Weak<T> {
     /// atomic reference counts but also the local reference counts. Calling
     /// [`upgrade`] on the return value always gives [`None`][`Option`].
     ///
-    /// Exercise restrain when using this method; if possible it is recommended
+    /// Exercise restraint when using this method; if possible it is recommended
     /// to simply use the [weak `Arc`'s `new` method][`WeakArc::new`] for
     /// whatever purpose this `new` method would fulfill.
     ///
@@ -110,7 +110,7 @@ where
     /// [`upgrade`] on the return value may or may not return a [`Drc`]. If the
     /// [`Drc`] can be created, it will make use of this allocated memory.
     ///
-    /// Exercise restrain when using this method; if possible it is recommended
+    /// Exercise restraint when using this method; if possible it is recommended
     /// to simply use the [weak `Arc`][`WeakArc`] for whatever purpose this
     /// `Weak` would fulfill.
     ///
@@ -408,7 +408,7 @@ impl<T> Default for Weak<T> {
     /// atomic reference counts but also the local reference counts. Calling
     /// [`upgrade`] on the return value always gives [`None`][`Option`].
     ///
-    /// Exercise restrain when using this method; if possible it is recommended
+    /// Exercise restraint when using this method; if possible it is recommended
     /// to simply use the weak `Arc`'s [`Default`] implementation for
     /// whatever purpose this `new` method would fulfill.
     ///
